@@ -228,7 +228,6 @@ public class ThreadFixPublisher extends Recorder {
             //added to validate token length of 44 alpha numeric
             if (tokenErrorTemplate.length() <= 43)
                 return FormValidation.warning("Isn't the key too short?");
-
 			return FormValidation.ok();
 		}
 
